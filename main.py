@@ -9,8 +9,6 @@ from re import T
 from unicodedata import name
 import discord
 import time
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 from discord.utils import get
 
 
