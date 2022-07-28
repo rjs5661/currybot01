@@ -21,6 +21,8 @@ from discord import FFmpegPCMAudio
 from youtube_dl import YoutubeDL
 import youtube_dl
 
+from discord.ext import commands
+
 client = commands.Bot(command_prefix='.')
 TOKEN = os.environ.get('BOT_TOKEN')
 
