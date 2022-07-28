@@ -1,34 +1,25 @@
 from dis import disco
-from email import message
-from email.message import Message
 from hashlib import new
 from operator import le
 from pydoc import cli, describe
-import queue
 from re import T
 from unicodedata import name
 import discord
-import time
 from discord.utils import get
 
 
 #크롤링
 import bs4
 from bs4 import BeautifulSoup
-import requests
 import openpyxl
-import random
 import time
 import asyncio
 import os
+
 #음악재생
 from discord import FFmpegPCMAudio
 from youtube_dl import YoutubeDL
 import youtube_dl
-
-#버튼
-from discord.ext import commands
-from discord_buttons_plugin import  *
 
 client = commands.Bot(command_prefix='.')
 TOKEN = os.environ.get('BOT_TOKEN')
