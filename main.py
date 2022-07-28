@@ -15,7 +15,6 @@ from discord.utils import get
 #크롤링
 import bs4
 from bs4 import BeautifulSoup
-from matplotlib.pyplot import title
 import requests
 import openpyxl
 import random
